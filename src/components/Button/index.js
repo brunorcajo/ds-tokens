@@ -1,7 +1,7 @@
 import "./styles.scss";
 
 const Button = ({ children }) => {
-  return <Button className="wm-button">{children}</Button>;
+  return <button>{children}</button>;
 };
 
 export default Button;

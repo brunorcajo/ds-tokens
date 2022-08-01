@@ -2,6 +2,16 @@
 
 button{
   background-color: $ds-a-color-primary;
-  padding: 5px 20px;
+  padding: 10px 40px;
   color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 2rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  box-shadow: -3px 7px 13px -3px rgba(0,0,0,0.35);
+
+  &:hover{
+    background-color: darken($ds-a-color-primary, 10%);
+  }
 }
